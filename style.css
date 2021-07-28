@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "google sans";
+    src: url("./font/ProductSans-Regular.ttf");
+}
+
+body {
+    font-family: "google sans";
+}
+
+.nav-item {
+    color: rgb(33, 40, 50);
+    font-size: 17px;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: rgb(223, 105, 81);
+}
+
+.hero-big-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 84px;
+    letter-spacing: -0.04em;
+    color: rgb(24, 30, 75);
+    max-width: 545px;
+}
+
+.enjoy {
+    position: relative;
+}
+
+.enjoy::before {
+    content: "";
+    background-image: url("./Decore.png");
+    position: absolute;
+    bottom: 3px;
+    left: 44px;
+    z-index: -1;
+    height: 100%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+
+.hero-desc {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(94, 98, 130);
+    max-width: 477px;
+}
+
+.pay-btn i {
+    font-size: 40px;
+}
+
+header {
+    background-image: url("./images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50%;
+}
+
+#service img {
+    width: 165px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.second-servece {
+    background-image: url("./images/service/service-bg.png");
+    background-position: left bottom;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 348px;
+}
+
+.inner-service-box {
+    position: absolute;
+    width: 91%;
+    height: 91%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 100px 80px, rgba(0, 0, 0, 0.016) 0px 64.8148px 46.8519px, rgba(0, 0, 0, 0.01) 0px 38.5185px 25.4815px, rgba(0, 0, 0, 0.01) 0px 20px 13px, rgba(0, 0, 0, 0.008) 0px 8.14815px 6.51852px, rgba(0, 0, 0, 0.004) 0px 1.85185px 3.14815px;
+    border-radius: 36px;
+    top: 0px;
+    right: 0px;
+    padding: 15px;
+}
+
+.destination-row .col {
+    height: 457px;
+    margin: 15px 15px;
+    border-radius: 20px;
+    padding: 0 !important;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    max-width: 315px;
+
+}
+
+.destination-desc {
+    width: 100%;
+}
+
+.destination-1 {
+    background-image: url("./images/destination/1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.destination-2 {
+    background-image: url("./images/destination/2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.destination-3 {
+    background-image: url("./images/destination/3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.location {
+    font-weight: 500;
+    font-size: 18px;
+    color: #5E6282;
+    margin-top: 23px;
+}
+
+.large-sevice-title {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #14183E;
+}
+
+#destination {
+    background-image: url("./images/service/spring.png");
+    background-repeat: no-repeat;
+    background-position: 89% 90%;
+    background-size: auto;
+    margin: 0 15px;
+}
